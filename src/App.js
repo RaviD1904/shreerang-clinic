@@ -9,7 +9,9 @@ const { Header } = Layout;
 function App() {
   const [login, setLogin] = useState(false);
   return (
-    <div>
+    <div style={{
+      overflowX:"hidden"
+    }}>
       {!login ? (
         <div className="flex justify-center" style={{
           width:"100%",
